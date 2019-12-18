@@ -1,0 +1,30 @@
+﻿@using CupcakeShop.Models
+@model CupcakeModel
+@{
+    ViewBag.Title = "Create Cupcake";
+}
+@section inner{
+    <div class="inner">
+        <header>
+            <h1><span id="logo">Time to Add Something New to Yangaroo</span></h1>
+        </header>
+    </div>
+}
+<div class="container">
+    <div class="row">
+        <div class="12u 12u(mobile) special" style="text-align:center">
+            <header>
+                <h2>Create a New Cupcake</h2>
+            </header>
+        </div>
+    </div>
+    @using (Html.BeginForm("Create", "Cupcake", FormMethod.Post))
+    {
+        @Html.Partial("_CreateOrUpdate", Model)
+        <div class="row">
+            <div class="submit-button">
+                <input type="submit" value="Create" />
+            </div>
+        </div>
+    }
+</div>

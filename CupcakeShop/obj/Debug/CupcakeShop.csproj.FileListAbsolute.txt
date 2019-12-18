@@ -1,0 +1,82 @@
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\CupcakeShop.dll.config
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\CupcakeShop.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\CupcakeShop.pdb
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Antlr3.Runtime.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\EntityFramework.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Newtonsoft.Json.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Ninject.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Ninject.Web.Common.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Ninject.Web.Mvc.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Net.Http.Formatting.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Http.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Http.WebHost.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Mvc.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Optimization.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Providers.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Razor.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Deployment.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Razor.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\WebActivatorEx.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\WebGrease.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Ninject.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Ninject.Web.Common.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Ninject.Web.Mvc.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\EntityFramework.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\Newtonsoft.Json.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Net.Http.Formatting.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Http.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Http.WebHost.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Mvc.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.Razor.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Deployment.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Razor.xml
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.dll
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.pdb
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.csprojAssemblyReference.cache
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.csproj.CoreCompileInputs.cache
+C:\Self Project\CupcakeShop\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.csproj.CopyComplete
+C:\Repo\CupcakeShop\CupcakeShop\bin\CupcakeShop.dll.config
+C:\Repo\CupcakeShop\CupcakeShop\bin\CupcakeShop.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\CupcakeShop.pdb
+C:\Repo\CupcakeShop\CupcakeShop\bin\Antlr3.Runtime.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\EntityFramework.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\Newtonsoft.Json.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\Ninject.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\Ninject.Web.Common.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\Ninject.Web.Mvc.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Net.Http.Formatting.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Http.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Http.WebHost.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Mvc.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Optimization.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Providers.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Razor.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Deployment.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Razor.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\WebActivatorEx.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\WebGrease.dll
+C:\Repo\CupcakeShop\CupcakeShop\bin\Ninject.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\Ninject.Web.Common.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\Ninject.Web.Mvc.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\EntityFramework.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\Newtonsoft.Json.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Net.Http.Formatting.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Http.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Http.WebHost.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Mvc.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.Razor.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Deployment.xml
+C:\Repo\CupcakeShop\CupcakeShop\bin\System.Web.WebPages.Razor.xml
+C:\Repo\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.csprojAssemblyReference.cache
+C:\Repo\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.csproj.CoreCompileInputs.cache
+C:\Repo\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.csproj.CopyComplete
+C:\Repo\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.dll
+C:\Repo\CupcakeShop\CupcakeShop\obj\Debug\CupcakeShop.pdb

@@ -1,0 +1,63 @@
+﻿@using CupcakeShop.Models
+@model List<CupcakeModel>
+@{
+    ViewBag.Title = "Yangaroo Cupcakes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<head>
+    <title>Yangaroo Cupcake</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+            <!-- Inner -->
+@section inner{
+    <div class="inner">
+        <header>
+            <h1>Welcome to Yangaroo Cupcakes</h1>
+            <hr />
+            <p>Music and cupcakes all baked fresh daily and contain no preservatives.</p>
+        </header>
+        <footer>
+            <a href="#banner" class="button circled scrolly">Browse</a>
+        </footer>
+    </div>
+}
+
+        <!-- Banner -->
+        <section id="banner">
+            <header>
+                <h2>Hi. You're looking at <strong>Yangaroo's</strong> best cupcakes.</h2>
+                <p>
+                    <strong>Yangaroo</strong> has been in GTA since 1999. We are not only provide technology solutions for the music, advertising, and awards industries, but also making cupcakes. We use only the finest ingredients, including Madagascar Bourbon vanilla bean extract, Belgian chocolate, freshly grated citrus zests, pure fruit purées and nothing but real butter for that real gourmet taste!
+                </p>
+            </header>
+        </section>
+
+        <!-- Carousel -->
+        <section class="carousel">
+            <div class="reel">
+                @foreach (var cupcake in Model)
+                {
+                    if (!string.IsNullOrEmpty(cupcake.ImageFileName)) 
+                    { 
+                        <article>
+                            <a href="@Url.RouteUrl("ViewCupcake", new { id = cupcake.Id })" class="image featured"><img style="width:245px; height:170px;" src="~/Content/Images/@cupcake.ImageFileName" alt="" /></a>
+                            <header>
+                                <h3><a href="@Url.RouteUrl("ViewCupcake", new { id = cupcake.Id })">@cupcake.Name</a></h3>
+                            </header>
+                            @if (!string.IsNullOrEmpty(cupcake.Ingredients))
+                            {
+                                <p> @cupcake.Ingredients.Split(new string[] { Environment.NewLine }, StringSplitOptions.None).FirstOrDefault() <br /><a href="@Url.RouteUrl("ViewCupcake", new { id = cupcake.Id })">and more....</a></p>
+                            }
+                            else
+                            {
+                                <p><a href="@Url.RouteUrl("ViewCupcake", new { id = cupcake.Id })">Ingredient is comming soon... or you can add for us..</a></p>
+                            }
+                        </article>
+                    }
+                }
+            </div>
+        </section>
+

@@ -1,0 +1,103 @@
+﻿@using CupcakeShop.Models
+@model CupcakeModel
+
+@Html.ValidationSummary(true)
+    <div class="row">
+        <div class="-4u 12u(mobile) special">
+            @Html.LabelFor(x => x.Name)
+        </div>
+        <div class="4u 12u(mobile) special">
+            @Html.EditorFor(x => x.Name)
+            @Html.ValidationMessageFor(x => x.Name)
+        </div>
+        </div>
+    <div class="row">
+        <div class="-4u 12u(mobile) special">
+            @Html.LabelFor(x => x.Price)
+        </div>
+        <div class="4u 12u(mobile) special">
+            @Html.EditorFor(x => x.Price)
+            @Html.ValidationMessageFor(x => x.Price)
+        </div>
+    </div>
+    @if (Model.Id > 0)
+    {
+        <div class="row">
+            <div class="-4u 12u(mobile) special">
+                @Html.LabelFor(x => x.ImageFileName)
+            </div>
+            <div class="4u 12u(mobile) special">
+                <span id="ImageFileNameLabel">@Html.DisplayFor(x => x.ImageFileName)</span> 
+                <input type="file" name="UploadFile" id="imageUploadFile" />         
+                    <label id="fileUploadStatus" style="display:none; color:green"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="-4u 12u(mobile) special">
+                @Html.LabelFor(x => x.Featured)
+            </div>
+            <div class="4u 12u(mobile) special">
+                @Html.EditorFor(x => x.Featured)
+                @Html.ValidationMessageFor(x => x.Featured)
+            </div>
+        </div>
+    }
+    <div class="row">
+    <div class="-4u 12u(mobile) special">
+        @Html.LabelFor(x => x.Ingredients)
+    </div>
+    <div class="4u 12u(mobile) special">
+        @Html.TextAreaFor(x => x.Ingredients)
+        @Html.ValidationMessageFor(x => x.Ingredients)
+    </div>
+</div>
+
+    @if (Model.CreatedOn.HasValue)
+    {
+        <div class="row">
+            <div class="-4u 12u(mobile) special">
+                @Html.LabelFor(x => x.CreatedOn)
+            </div>
+            <div class="4u 12u(mobile) special">
+                @Html.DisplayFor(x => x.CreatedOn)
+            </div>
+        </div>
+        <div class="row">
+            <div class="-4u 12u(mobile) special">
+                @Html.LabelFor(x => x.LastModified)
+            </div>
+            <div class="4u 12u(mobile) special">
+                @Html.DisplayFor(x => x.LastModified)
+            </div>
+        </div>
+    }
+
+<script>
+    $('#imageUploadFile').on('change', function (e) {
+        var files = e.target.files;
+        if (files.length > 0) {
+            if (window.FormData !== undefined) {
+                var data = new FormData();
+                for (var x = 0; x < files.length; x++) {
+                    data.append("file" + x, files[x]);
+                }
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.RouteUrl("FileUpload", new { id = Model.Id })',
+                    contentType: false,
+                    processData: false,
+                    data: data,
+                    success: function (result) {
+                        $("#ImageFileNameLabel").text(result).css("color", "green");
+                    },
+                    error: function () {
+                        $("#ImageFileNameLabel").css("color", "red");
+                    }
+                });
+            } else {
+                alert("This browser doesn't support HTML5 file uploads!");
+            }
+        }
+    });
+</script>

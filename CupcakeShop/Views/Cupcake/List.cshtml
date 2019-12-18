@@ -1,0 +1,70 @@
+﻿@using CupcakeShop.Models
+@model List<CupcakeModel>
+
+@{
+    
+    ViewBag.Title = "Cupcake List";
+}
+
+@section inner{
+    <div class="inner">
+        <header>
+            <h1>Yangaroo's Best Cupcake Collection</h1>
+        </header>
+    </div>
+ }
+
+<div class="container">
+    <div class="row" style="text-align:center">
+        <article id="main" class="special" style="width:100%">
+            <h2>GTA No.1 Cupcake for Programmers</h2>
+        </article>
+    </div>
+    <div class="row">
+        <div class="button command-button">
+            @Html.ActionLink("Add New Cupcake", "Create")
+        </div>
+    </div>
+    <div class="row">
+        @if (Model.Count > 0)
+        {
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Number of Ingredients</th>
+                    <th>Command</th>
+                </tr>
+                @foreach (var cupcake in Model)
+                {
+                    <tr>
+                        <td>@cupcake.Name</td>
+                        <td>@string.Format("{0:C}", cupcake.Price)</td>
+                        <td>@cupcake.NumberOfIngredients</td>
+                        <td>
+                            <div class="button command-button">
+                                @Html.ActionLink("Edit", "Edit", new { id = cupcake.Id })
+                            </div>
+                            <div class="button command-button">
+                                @Html.ActionLink("Delete", "Delete", new { id = cupcake.Id }, htmlAttributes: new { @class = "confirm" })
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {
+            <div><strong>No cupcake found, please create one</strong></div>
+        }
+    </div>
+</div>
+<style>
+    th{
+        width:200px;
+        font-weight:bold;
+    }
+    td{
+       text-align:center;
+    }
+</style>
