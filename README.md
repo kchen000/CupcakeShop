@@ -1,5 +1,10 @@
+The code was written for a take home interview in 2015, requirements are in below
+
+-----------------------------------------------------------------
 Yangaroo Take Home Interview
+
 This is your takeaway question. You will be required to email us back your answer within 3 days (unless there are extenuating circumstances).
+
 Problem 1
 We are going to be opening up a Cupcake shop! As the owner, I would like to see a simple web application where I can enter the following data:
 1. Cupcake name
@@ -16,6 +21,7 @@ Using ASP.NET MVC4 (Framework v4.5), we would like a simple site with the follow
  Please demonstrate the use of at LEAST one partial view
  All fields are required, must demonstrate the use of validation, must have both client and
 server side validation (for client-side, please use unobtrusive validation)
+
 Problem 2
 NOTE: Make your changes in the existing TFS workspace you created for the above problem. Check in
 your changes to the existing TFS project. Do not create a new TFS project.
