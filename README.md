@@ -13,13 +13,13 @@ We are going to be opening up a Cupcake shop! As the owner, I would like to see 
 4. Date cupcake was last modified
 Once that data is entered, I would like to be able to have a listing of all my entries. I would like to be able to edit any entry I select, as well as deleting any entry.
 Using ASP.NET MVC4 (Framework v4.5), we would like a simple site with the following requirements:
- Use SQLExpress for your database
- DO NOT use ORM (e.g. EntityFramework or LINQ2SQL)
- MUST use Razor views
- Please demonstrate the use of at LEAST one editor template
- Please demonstrate the use of at LEAST one layout template
- Please demonstrate the use of at LEAST one partial view
- All fields are required, must demonstrate the use of validation, must have both client and
+- Use SQLExpress for your database
+- DO NOT use ORM (e.g. EntityFramework or LINQ2SQL)
+- MUST use Razor views
+- Please demonstrate the use of at LEAST one editor template
+- Please demonstrate the use of at LEAST one layout template
+- Please demonstrate the use of at LEAST one partial view
+- All fields are required, must demonstrate the use of validation, must have both client and
 server side validation (for client-side, please use unobtrusive validation)
 
 Problem 2
